@@ -2,7 +2,7 @@
 An application demonstrating use of docker compose, dockerfile , Mongo Db and Node Js to perform basic CRUD operation.
 
 ## Description
-This app simply provide two end-points to add and get list of users. We use MongoDb for performing storing and fetching the users details. 
+This app simply provide two end-points to add and get list of users. We use MongoDb for DB operation i.e. storing and fetching the users details. 
 
 <<**TODO:** Add update and delete operation as two more end-points. >>
 
