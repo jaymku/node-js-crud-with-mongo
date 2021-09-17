@@ -56,10 +56,4 @@ $ cd Projects
 http://localhost:1337/api/users/add
 http://localhost:1337/api/users
 ```
-## Author
-Jai K. 
 
-### Version History
-
-+  02 Create & Fetch operation added.
-+  01 Initial release. 
