@@ -14,7 +14,7 @@ const connectDb = require ('./config/db'); // import
 connectDb();
 
 // Route
-     app.set('view engine', 'ejs')
+
 app.use('/', require('./routes/router'));
 
 /**

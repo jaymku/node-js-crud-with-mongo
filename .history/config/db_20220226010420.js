@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 //const mongoURL = 'mongodb://localhost:27017'; // if only mongo db is running within docker. 
 
 const mongoURL = "mongodb+srv://davidmcneal28:SL256Tnp@cluster0.xnty7.mongodb.net/advisorCRM?retryWrites=true&w=majority"; // because we are using docker-compose.yml , run mongo within docker vm. 
-// MongoClient.connect(connectionString, { useUnifiedTopology: true })
+MongoClient.connect(connectionString, { useUnifiedTopology: true })
    
 const connectDb = async () => {
     try {
